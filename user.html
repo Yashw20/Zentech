@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Create an account</h1>
+    </div>
+    <div class="flex-center   flex-column">
+        <p class="choice-prefix"><br>
+            Name :   <input type="text" name="name">
+        </p><br>
+        <p class="choice-prefix">
+            Email id :  <input type="email" name="email" id="email">
+        </p><br>
+        <p class="choice-prefix">
+            Password :   <input type="pincode" name="pincode" id="pincode">
+        </p>
+        <p class="choice-prefix">
+           Confirm Password :   <input type="pincode" name="pincode" id="pincode">
+        </p>
+        <p class="choice-prefix">
+            Security Question : <select name="Questions" id="card_type">
+                <option value="">--Select a Question--</option>
+                <option value="In what city were you born?">In what city were you born?</option>
+                <option value="What is the name of your favorite pet?">What is the name of your favorite pet?</option>
+                <option value="What was your favorite food as a child?">What was your favorite food as a child?</option>
+            </select>
+        </p>
+        <p class="choice-prefix"><br>
+            Security Answer :   <input type="text" name="SecurityAnswer">
+        </p>
+        <div class="choice-prefix sign"> 
+            <input class="choice-prefix" type="submit" value="Create New Account">
+          
+        </div>
+
+        <a class="sign" href="Sign.html">already have an account</a> 
+
+    </div>
+
+</body>
+
+</html>
